@@ -1,0 +1,100 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "ProcedimientoEjemploCatarata",
+  "meta" : {
+    "profile" : ["http://OftalmonFHIR.cl/fhir/oftalmologia/StructureDefinition/procedimiento-oftalmologia"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure ProcedimientoEjemploCatarata</b></p><a name=\"ProcedimientoEjemploCatarata\"> </a><a name=\"hcProcedimientoEjemploCatarata\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-procedimiento-oftalmologia.html\">Procedimiento Oftalmológico</a></p></div><p><b>basedOn</b>: Orden quirúrgica para facoemulsificación</p><p><b>status</b>: Completed</p><p><b>category</b>: <span title=\"Codes:{http://snomed.info/sct 387713003}\">Procedimiento quirúrgico</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 415070008}\">Facoemulsificación de catarata con implante de lente intraocular</span></p><p><b>subject</b>: <a href=\"Patient-PacienteEjemplo.html\">María Fernanda González Morales</a></p><p><b>encounter</b>: <a href=\"Encounter-EncuentroEjemplo.html\">Consulta oftalmológica ambulatoria</a></p><p><b>performed</b>: 2025-03-20 10:00:00-0300</p><p><b>reasonCode</b>: <span title=\"Codes:{http://snomed.info/sct 53889007}\">Catarata nuclear</span></p><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 81745001}\">Estructura del ojo</span></p><p><b>outcome</b>: <span title=\"Codes:{http://snomed.info/sct 385669000}\">Resultado exitoso</span></p><p><b>complication</b>: <span title=\"Codes:{http://snomed.info/sct 281900007}\">Sin complicaciones</span></p><p><b>followUp</b>: <span title=\"Codes:{http://snomed.info/sct 1297244003}\">Control postoperatorio</span></p><p><b>note</b>: </p><blockquote><div><p>Cirugía sin complicaciones. Paciente tolera bien el procedimiento. Control en 24 horas.</p>\n</div></blockquote><h3>FocalDevices</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Action</b></td><td><b>Manipulated</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 69724002}\">Implante de lente intraocular</span></td><td><a href=\"Device-LenteIntraocularEjemplo.html\">Lente intraocular monofocal +21.0D</a></td></tr></table></div>"
+  },
+  "basedOn" : [{
+    "display" : "Orden quirúrgica para facoemulsificación"
+  }],
+  "status" : "completed",
+  "category" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "387713003",
+      "display" : "Procedimiento quirúrgico"
+    }]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "415070008",
+      "display" : "Facoemulsificación de catarata con implante de lente intraocular"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/PacienteEjemplo",
+    "display" : "María Fernanda González Morales"
+  },
+  "encounter" : {
+    "reference" : "Encounter/EncuentroEjemplo",
+    "display" : "Consulta oftalmológica ambulatoria"
+  },
+  "performedDateTime" : "2025-03-20T10:00:00-03:00",
+  "reasonCode" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "53889007",
+      "display" : "Catarata nuclear"
+    }]
+  }],
+  "bodySite" : [{
+    "extension" : [{
+      "url" : "http://OftalmonFHIR.cl/fhir/oftalmologia/StructureDefinition/lateralidad",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "24028007",
+          "display" : "Derecho"
+        }]
+      }
+    }],
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "81745001",
+      "display" : "Estructura del ojo"
+    }]
+  }],
+  "outcome" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385669000",
+      "display" : "Resultado exitoso"
+    }]
+  },
+  "complication" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "281900007",
+      "display" : "Sin complicaciones"
+    }]
+  }],
+  "followUp" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1297244003",
+      "display" : "Control postoperatorio"
+    }]
+  }],
+  "note" : [{
+    "text" : "Cirugía sin complicaciones. Paciente tolera bien el procedimiento. Control en 24 horas."
+  }],
+  "focalDevice" : [{
+    "action" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "69724002",
+        "display" : "Implante de lente intraocular"
+      }]
+    },
+    "manipulated" : {
+      "reference" : "Device/LenteIntraocularEjemplo",
+      "display" : "Lente intraocular monofocal +21.0D"
+    }
+  }]
+}

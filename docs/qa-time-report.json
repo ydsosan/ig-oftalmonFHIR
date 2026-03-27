@@ -1,0 +1,572 @@
+{
+  "date" : "Wed, 25 Mar, 2026 22:01:54 -0300",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "\\fsh-generated\\resources\\ImplementationGuide-hl7.fhir.cl.oftalmologia.json",
+    "size" : 4275,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 26,
+      "length" : 16
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 27,
+      "length" : 74
+    },
+    {
+      "activity" : "validate",
+      "start" : 35,
+      "length" : 5436
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 40,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 52,
+      "length" : 212
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 254
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 106,
+      "length" : 2
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 119,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Device-LenteIntraocularEjemplo.json",
+    "size" : 1532,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 6
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 27,
+      "length" : 1659
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 1215
+    },
+    {
+      "activity" : "generate1",
+      "start" : 52,
+      "length" : 79
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 175
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 105,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Encounter-EncuentroEjemplo.json",
+    "size" : 1655,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 104
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 30
+    },
+    {
+      "activity" : "generate1",
+      "start" : 52,
+      "length" : 30
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 126
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-PacienteEjemplo.json",
+    "size" : 3446,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 495
+    },
+    {
+      "activity" : "validate",
+      "start" : 42,
+      "length" : 2537
+    },
+    {
+      "activity" : "generate1",
+      "start" : 52,
+      "length" : 53
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 61
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Procedure-ProcedimientoEjemploCatarata.json",
+    "size" : 2895,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 21
+    },
+    {
+      "activity" : "validate",
+      "start" : 44,
+      "length" : 5770
+    },
+    {
+      "activity" : "generate1",
+      "start" : 52,
+      "length" : 53
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 106
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-Paciente-PacienteOftalmologia.json",
+    "size" : 706,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 26,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 92
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 27,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 61
+    },
+    {
+      "activity" : "validate",
+      "start" : 31,
+      "length" : 604
+    },
+    {
+      "activity" : "generateLogicalMaps",
+      "start" : 40,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 40,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 52,
+      "length" : 1743
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 2469
+    },
+    {
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 1401
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 106,
+      "length" : 14
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 119,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 119,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-dispositivo-oftalmologico.json",
+    "size" : 1592,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 26,
+      "length" : 8
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 41
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 26
+    },
+    {
+      "activity" : "validate",
+      "start" : 32,
+      "length" : 197
+    },
+    {
+      "activity" : "generate1",
+      "start" : 54,
+      "length" : 1034
+    },
+    {
+      "activity" : "generate2",
+      "start" : 65,
+      "length" : 1348
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 353
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 106,
+      "length" : 8
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 119,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-encuentro-oftalmologia.json",
+    "size" : 1308,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 26,
+      "length" : 7
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 52
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 21
+    },
+    {
+      "activity" : "validate",
+      "start" : 32,
+      "length" : 287
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 40,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 40,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 55,
+      "length" : 1120
+    },
+    {
+      "activity" : "generate2",
+      "start" : 66,
+      "length" : 1113
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 276
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 106,
+      "length" : 9
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 119,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-lateralidad.json",
+    "size" : 1416,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 26,
+      "length" : 7
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 33,
+      "length" : 2178
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 93
+    },
+    {
+      "activity" : "generate2",
+      "start" : 67,
+      "length" : 805
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 48
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 106,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-procedimiento-oftalmologia.json",
+    "size" : 3427,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 26,
+      "length" : 9
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 26
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 103
+    },
+    {
+      "activity" : "validate",
+      "start" : 35,
+      "length" : 101
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 1010
+    },
+    {
+      "activity" : "generate2",
+      "start" : 68,
+      "length" : 1414
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 171
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 106,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-lateralidad-vs.json",
+    "size" : 660,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 26,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 804
+    },
+    {
+      "activity" : "validate",
+      "start" : 30,
+      "length" : 1244
+    },
+    {
+      "activity" : "generate1",
+      "start" : 57,
+      "length" : 41
+    },
+    {
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 946
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 89,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 106,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "\\fsh-generated\\includes\\fsh-link-references.md",
+    "size" : 648,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 15
+    }]
+  },
+  {
+    "name" : "\\fsh-generated\\includes\\menu.xml",
+    "size" : 1061,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 70,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "\\input\\pagecontent\\index.md",
+    "size" : 82,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "\\template\\config",
+    "size" : 0
+  },
+  {
+    "name" : "\\template\\config\\_config.yml",
+    "size" : 140,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "\\temp\\pages\\_includes\\artifacts.xml",
+    "size" : 7800,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 71,
+      "length" : 7
+    }]
+  }]
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="PacienteEjemplo"/>
+  <meta>
+    <profile value="http://OftalmonFHIR.cl/fhir/oftalmologia/StructureDefinition/Paciente-PacienteOftalmologia"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><p class="res-header-id"><b>Generated Narrative: Patient PacienteEjemplo</b></p><a name="PacienteEjemplo"> </a><a name="hcPacienteEjemplo"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Paciente-PacienteOftalmologia.html">Paciente Oftalmológico</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">María Fernanda González (official) Female, DoB: 1985-03-15 ( RUN: 11.111.111-1 (use: official, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3"><ul><li><a href="tel:+56912345678">+56912345678</a></li><li><a href="mailto:maria.gonzalez@email.cl">maria.gonzalez@email.cl</a></li><li>Av. Providencia 1234, Depto 56 Santiago Centro Metropolitana Chile </li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Esta extensión incluye códigos de países"><a href="https://hl7chile.cl/fhir/ig/clcore/1.9.3/StructureDefinition-CodigoPaises.html">Código de Países</a></td><td colspan="3"><span title="Codes:{https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodigoPaises 152}">Chile</span></td></tr></table></div>
+  </text>
+  <extension url="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodigoPaises"/>
+        <code value="152"/>
+        <display value="Chile"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoDNI"/>
+        <code value="NNCHL"/>
+        <display value="RUN"/>
+      </coding>
+    </type>
+    <value value="11.111.111-1"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="González">
+      <extension url="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido">
+        <valueString value="Morales"/>
+      </extension>
+    </family>
+    <given value="María"/>
+    <given value="Fernanda"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="+56912345678"/>
+    <use value="mobile"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="maria.gonzalez@email.cl"/>
+    <use value="home"/>
+  </telecom>
+  <gender value="female"/>
+  <birthDate value="1985-03-15"/>
+  <address>
+    <line value="Av. Providencia 1234, Depto 56"/>
+    <city value="Santiago Centro">
+      <extension url="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ComunasCl">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodComunasCL"/>
+            <code value="13101"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+    </city>
+    <district value="Santiago">
+      <extension url="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvinciasCl">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL"/>
+            <code value="131"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+    </district>
+    <state value="Metropolitana">
+      <extension url="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodRegionCL"/>
+            <code value="13"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+    </state>
+    <country value="Chile">
+      <extension url="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais"/>
+            <code value="152"/>
+            <display value="Chile"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+    </country>
+  </address>
+</Patient>

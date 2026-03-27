@@ -1,0 +1,19 @@
+{
+  "url" : "http://OftalmonFHIR.cl/fhir/oftalmologia/ImplementationGuide/hl7.fhir.cl.oftalmologia",
+  "name" : "OftalmonFHIR",
+  "title" : null,
+  "description" : "",
+  "status" : "draft",
+  "package-id" : "hl7.fhir.cl.oftalmologia",
+  "ig-ver" : "0.1.0",
+  "date" : "Wed, 25 Mar, 2026 22:01:54 -0300",
+  "dateISO8601" : "2026-03-25T22:01:54-03:00",
+  "errs" : 25,
+  "warnings" : 21,
+  "hints" : 4,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 991351488
+}

@@ -1,0 +1,93 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://OftalmonFHIR.cl/fhir/oftalmologia/Encounter/EncuentroEjemplo> a fhir:Encounter ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EncuentroEjemplo"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://OftalmonFHIR.cl/fhir/oftalmologia/StructureDefinition/encuentro-oftalmologia"^^xsd:anyURI ;
+       fhir:l <http://OftalmonFHIR.cl/fhir/oftalmologia/StructureDefinition/encuentro-oftalmologia>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter EncuentroEjemplo</b></p><a name=\"EncuentroEjemplo\"> </a><a name=\"hcEncuentroEjemplo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-encuentro-oftalmologia.html\">Encuentro Clínico Oftalmológico</a></p></div><p><b>status</b>: Arrived</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB\">ActCode: AMB</a> (ambulatorio)</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0007 ADMS}\">Screening anual para diabetes mellitus</span></p><p><b>serviceType</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/service-type 217}\">Oftalmología</span></p><p><b>priority</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActPriority R}\">Rutina</span></p><p><b>subject</b>: <a href=\"Patient-PacienteEjemplo.html\">María Fernanda González Morales</a></p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Individual</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationType ATND}\">Médico tratante</span></td><td>Dr. Carlos Pérez</td></tr></table><p><b>period</b>: 2025-03-20 09:00:00-0300 --&gt; 2025-03-20 09:30:00-0300</p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td></tr><tr><td style=\"display: none\">*</td><td>Consulta Oftalmología - Box 3</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "arrived"] ; # 
+  fhir:class [
+     fhir:system [
+       fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+     ] ;
+     fhir:code [ fhir:v "AMB" ] ;
+     fhir:display [ fhir:v "ambulatorio" ]
+  ] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0007"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0007>
+       ] ;
+       fhir:code [ fhir:v "ADMS" ] ;
+       fhir:display [ fhir:v "Screening anual para diabetes mellitus" ]
+     ] )
+  ] ) ; # 
+  fhir:serviceType [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/service-type"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/service-type>
+       ] ;
+       fhir:code [ fhir:v "217" ] ;
+       fhir:display [ fhir:v "Oftalmología" ]
+     ] )
+  ] ; # 
+  fhir:priority [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActPriority"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActPriority>
+       ] ;
+       fhir:code [ fhir:v "R" ] ;
+       fhir:display [ fhir:v "Rutina" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://OftalmonFHIR.cl/fhir/oftalmologia/Patient/PacienteEjemplo> ;
+     fhir:reference [ fhir:v "Patient/PacienteEjemplo" ] ;
+     fhir:display [ fhir:v "María Fernanda González Morales" ]
+  ] ; # 
+  fhir:participant ( [
+     fhir:type ( [
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+         ] ;
+         fhir:code [ fhir:v "ATND" ] ;
+         fhir:display [ fhir:v "Médico tratante" ]
+       ] )
+     ] ) ;
+     fhir:individual [
+       fhir:display [ fhir:v "Dr. Carlos Pérez" ]
+     ]
+  ] ) ; # 
+  fhir:period [
+     fhir:start [ fhir:v "2025-03-20T09:00:00-03:00"^^xsd:dateTime ] ;
+     fhir:end [ fhir:v "2025-03-20T09:30:00-03:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:location ( [
+     fhir:location [
+       fhir:display [ fhir:v "Consulta Oftalmología - Box 3" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
